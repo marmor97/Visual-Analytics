@@ -13,6 +13,4 @@ To use the files in this repository, please clone this repo to the place you wor
 
 Under W2 you will find a src folder from where you can execute the script collocation.py. To move to this folder and run the script from the terminal type:
 
-``cd src``
-
 ``python3 image_search.py``
