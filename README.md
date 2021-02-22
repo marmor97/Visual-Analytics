@@ -11,6 +11,6 @@ To use the files in this repository, please clone this repo to the place you wor
 ``bash ./create_venv.sh``
 
 
-Under W2 you will find a src folder from where you can execute the script collocation.py. To move to this folder and run the script from the terminal type:
+Under W3 you will find a the script image_search.py. To run the script from the terminal type:
 
 ``python3 image_search.py``
