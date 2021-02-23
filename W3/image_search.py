@@ -39,9 +39,9 @@ def calc_target_comp(path = "flower_data", target_file = "image_1164.jpg"):
             chi = round(cv2.compareHist(hist, target_hist, cv2.HISTCMP_CHISQR),2) # calculating distance metric - here chi-square 
             chi_sqs.append((os.path.basename(filename), chi)) # appending information to our list 
 
-    df = pd.DataFrame(chi_sqs, columns =["filename", "distance"]) # using pandas, i'm making a dataframe
+    df = pd.DataFrame(chi_sqs, columns = ["filename", "distance"]) # using pandas, i'm making a dataframe
     df.sort_values("distance", inplace=True) # arranging the df in ascending order so that the lowest value comes first
-    print(f"file with lowest distance to target file is {print(df.filename.loc[0])}") # using .loc we can index the df and get the zero row and print this using formatted strings
+    print(f"file with lowest distance to target file is {df.filename.loc[0]}") # using .loc we can index the df and get the zero row and print this using formatted strings
 
     outpath = os.path.join("img_distance_info.csv") # defining place to save csv
     df.to_csv(outpath)
