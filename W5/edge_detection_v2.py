@@ -5,7 +5,7 @@ The purpose of this assignment is to use computer vision to extract specific fea
 # Packages 
 import os # Path operations
 import sys # Path operations
-sys.path.append(os.path.join("..", "..", ".."))  # We need to include the home directory in our path, so we can read in our own module.
+sys.path.append(os.path.join(".."))  # We need to include the home directory in our path, so we can read in our own module.
 import cv2 # Image operations
 import numpy as np # Numeric operatoins
 from utils.imutils import jimshow # Showing image
