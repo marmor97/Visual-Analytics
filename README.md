@@ -16,4 +16,3 @@ To execute the script calculating contours of the image, open your terminal and 
 If you want to look at the notebook, you can find it under the filename ``edge_detection.ipynb``
 
 
-
