@@ -90,7 +90,8 @@ def main(): # Now I'm defining the main function where I try to make it possible
 
     args = vars(ap.parse_args()) # Adding them together
    
-    image_operator = canny_calculations(data_folder = args["data_folder"], image_name = args["image_name"]) # Defining what they corresponds to in the canny class and functions
+    image_operator = canny_calculations(data_folder = args["data_folder"], 
+                                        image_name = args["image_name"]) # Defining what they corresponds to in the canny class and functions
 
     image_original = image_operator.read_img()
     
