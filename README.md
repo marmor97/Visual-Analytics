@@ -45,6 +45,8 @@ This script classifies paintings impressionist artists with a convolutional neur
 
 ``git clone https://github.com/marmor97/Visual-Analytics/W10``
 
+As the data is too big to push to GitHub, please manually download it from https://www.kaggle.com/delayedkarma/impressionist-classifier-data or duplicate your own folder into the repository you have cloned. You will need to make a "data" folder and delete the redundant "training" and "validation" folder so the path is e.g. W10/data/training/Renoir. Hope this make sense! To create the venv, type:
+
 ``bash ./create_venv_w10.sh``
 
 After creating the virtual environment, please activate it by writing:
@@ -56,3 +58,7 @@ When you have activated the environment you can run the CNN classifier script. T
 ``python3 cnn_artists.py``
 
 If not you wish to run the CNN (takes 10-15 min), you can find the accuracy/loss curves and classification report in the folder ``output``. 
+
+Deactivate the venv by writing:
+
+``bash kill_venv.sh``
