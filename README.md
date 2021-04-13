@@ -40,3 +40,19 @@ You can modify the train test split in both by adding the argument -split (e.g. 
 
 You should be able to see the entire classification report in your terminal.
 
+## Week 10
+To use the scripts in this repository for week 10, please clone this repo to the place you work with the following command:
+
+``git clone https://github.com/marmor97/Visual-Analytics/W10``
+
+``bash ./create_venv_w10.sh``
+
+After creating the virtual environment, please activate it by writing:
+
+``source marmor_visw10/bin/activate``
+
+When you have activated the environment you can run the CNN classifier script. To do so, please type:
+``cd src``
+``python3 cnn_artists.py``
+
+If not you wish to run the CNN (takes 10-15 min), you can find the accuracy/loss curves and classification report in the folder ``output``. 
