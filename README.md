@@ -41,7 +41,7 @@ You can modify the train test split in both by adding the argument -split (e.g. 
 You should be able to see the entire classification report in your terminal.
 
 ## Week 10
-To use the scripts in this repository for week 10, please clone this repo to the place you work with the following command:
+This script classifies paintings impressionist artists with a convolutional neural network (CNN). This includes preprocessing where paintings are compressed into sizes of 200 and normalization of values. To use the scripts in this repository for week 10, please clone this repo to the place you work with the following command:
 
 ``git clone https://github.com/marmor97/Visual-Analytics/W10``
 
