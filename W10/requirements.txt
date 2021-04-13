@@ -1,0 +1,9 @@
+pandas
+numpy
+sys
+pathlib
+argparse
+opencv-python
+sklearn
+matplotlib
+tensorflow
